@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="c.css">
+    <script src="c.js"></script>
+</head>
+<body>
+    
+
+
+    <div id="box">
+        <div id="top"></div>
+        <div id="mid">
+            <div id="mid_left"></div>
+            <div id="mid_right"></div>
+        </div>
+        <div id="bot">
+            <input type="button" value="열기" onclick="op();">
+        </div>
+    </div>
+    <div id="popup">
+        <b>공지사항</b>
+        <input type="button" value="닫기" onclick="cl();">
+        
+        
+    </div>
+
+<form>숫자만 입력
+        <input pattern = "^[0-9]+$">
+        <input type="submit">
+    </form>
+    <form>영문 대소문자만
+        <input pattern = "^[a-zA-Z]+$">
+        <input type="submit">
+    </form>
+    <form>영문 대소문자만(띄어쓰기 공백 가능)
+        <input pattern = "^[a-zA-Z\s]+$">
+        <input type="submit">
+    </form>
+    <form>숫자, 영문 대소문자만
+        <input type="text" name="patternValue" pattern="^[a-zA-Z0-9]+$">
+        <input type="submit">
+    </form>
+    <form>"최소 8자리에서 최대 16자리까지 숫자, 영문, 
+        특수문자 각 1개 이상 포함 (암호 유효성 검사에 유용)"
+        <input type="text" name="patternValue" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,16}$">
+        <input type="submit">
+    </form>
+    <div>
+        <button id="cpb">Did you miss me?</button>
+        <img id="cp" src="cat.jpg">
+    </div>
+    <div>
+        
+        <p>현재 시간: <time id="currentTime"></time></p>
+    </div>
+
+</body>
+</html>
