@@ -1,0 +1,45 @@
+#top{
+    background-color: red;
+    width:1850px;
+    height: 150px;
+    position: absolute;
+    
+  }
+  #leftmain{
+    background-color: orange;
+    height: 640px;
+    width: 462.5px;
+    position:absolute;
+    top:150px;
+    object-fit: cover;
+    text-align:center;
+    display:table;
+    border:1px solid #cecece;
+  }
+  #leftmain-image{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  #image{
+    max-width:462.5px;
+    max-height: 640px;
+  }
+  #rightmain{
+    background-color: green;
+    height: 640px;
+    width: 1387.5px;
+    position: absolute;
+    left: 462.5px;
+    top:150px;
+  }
+
+  #bottom{
+    background-color: yellow;
+    height: 150px;
+    width: 1850px;
+    position: absolute;
+    top:790px;
+  }
+
+
+  

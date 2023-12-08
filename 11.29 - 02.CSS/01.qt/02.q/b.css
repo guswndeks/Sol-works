@@ -1,0 +1,170 @@
+#f{
+    display: flex;
+    /* border-color:black;
+    
+    border-style: solid;  */
+    width:1200px;
+    height: 800px;
+}
+
+/* 지하 1층입니다. ------------------------------------------------------------------------------------------------------ */
+#b1a{
+    /* display: flex; */
+    /* border-color:aqua;
+    
+    border-style: solid; */
+    width: 800px;
+    height:800px;
+}
+
+#b1b{
+    display: flex;
+    border-color:red;
+    
+    border-style: solid;
+
+    /* background-color:red ; */
+
+    width: 400px ;
+    height: 800px;
+    /* float: left; */
+}
+
+/* 지하 2층입니다. ------------------------------------------------------------------------------------------------------ */
+
+#b2a{
+    display: flex;
+    /* border-color:violet;
+    
+    border-style: solid; */
+    width: 800px;
+    height: 200px;
+}
+
+#b2b{
+    display: flex;
+    /* border-color:violet;
+    
+    border-style: solid; */
+    width: 800px;
+    height: 200px;
+}
+
+#b2c{
+    display: flex;
+    /* border-color:violet;
+    
+    border-style: solid; */
+    width: 800px;
+    height: 400px;
+
+}
+
+/* 지하 3층입니다. ------------------------------------------------------------------------------------------------------ */
+
+#b3a{
+ /* background-color:orange ; */
+ width: 200px ;
+    height: 200px;
+    /* float: left; */
+    border-color:orange;
+    
+    border-style: solid;
+}
+
+#b3b{
+    /* background-color:yellow ; */
+    width: 600px ;
+    height: 200px;
+    /* float: left; */
+    border-color:yellow;
+    
+    border-style: solid;
+}
+
+#b3c{
+    /* background-color:green ; */
+    width: 200px ;
+    height: 200px;
+    /* float: left; */
+    border-color:green;
+    
+    border-style: solid;
+}
+
+#b3d{
+    /* background-color:blue ; */
+    width: 200px;
+    height: 200px ;
+    /* float: left; */
+    border-color:blue;
+    
+    border-style: solid;
+}
+
+#b3e{
+    /* background-color:darkblue ; */
+    width: 200px ;
+    height: 200px;
+    /* float: left; */
+    border-color:darkblue;
+    
+    border-style: solid;
+}
+
+#b3f{
+    /* background-color:purple ; */
+    width: 200px ;
+    height: 200px;
+    /* float: left; */
+    border-color:purple;
+    
+    border-style: solid;
+}
+
+#b3g{
+    /* background-color:cornflowerblue ; */
+    width:200px ;
+    height: 400px;
+    /* float: left; */
+    border-color:cornflowerblue;
+    
+    border-style: solid;
+}
+
+#b3h{
+    /* background-color:hotpink ; */
+    width: 600px ;
+    height: 400px;
+    /* float: left; */
+    border-color:hotpink;
+    
+    border-style: solid;
+}
+
+.GT{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#loginhead{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vh;
+    
+   
+    border-width: 3px;
+    border-style: solid;
+
+    border-bottom-color: yellow;
+    border-top:hidden;
+    border-left: hidden;
+    border-right: hidden;
+    z-index: 1;
+    text-align: center;
+
+    background-color: white; opacity: 0.7;
+    
+}

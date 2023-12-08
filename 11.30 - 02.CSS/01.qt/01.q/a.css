@@ -1,0 +1,155 @@
+body{
+    background-image: url('https://upload3.inven.co.kr/upload/2021/02/25/bbs/i15745445892.jpg');
+}
+
+#bgi{
+    
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top{
+    
+    width: 1600px;
+    height: 120px;
+    display: flex;
+    
+}
+
+    #top_name{
+        
+            
+            background-color: darkgreen;
+            position:absolute;
+            
+            
+    }
+        #cat{
+            width: 100px; height: 100px; margin: 10px;
+            float: left;
+        }
+
+        #tn{
+            color: crimson;
+            font-style: italic;
+            font-size: 1.2em;
+            font-weight: 600;
+            float: left;    
+            margin-top: 60px;
+        }
+
+    #top_banner{
+        background-color: darksalmon;
+        text-align: center;
+        width: 1600px;
+        height: 120px;
+    }
+
+#mid_margin{
+    background-color: gray;
+    width: 1600px;
+    height: 30px;
+    display: flex;
+    justify-content: center;    /* 수평(가로) 정렬이 가운데로 됨 */
+    align-items: center;        /* 수직(세로) 정렬이 가운데로 됨 */
+}
+
+.main{
+    display: flex;
+    background-color: yellow;
+    height : 800px;
+    
+}
+
+    .main_left{
+        background-color: orange;
+        width : 200px;
+
+    }
+
+        #login{
+            background-color: darkgreen;
+            width: 160px;
+            height: 80px;
+           
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 10px;
+        }
+            #li{
+                width: 80px;
+            }
+
+            #lp{
+                width: 80px;
+            }
+
+        #notice{
+            background-color: red;
+            width : 160px;
+            height: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 10px;   
+        }
+
+            .nn{
+                color:chartreuse;
+                font-size: 1.2em;
+                font-weight: 600;
+                font-style: italic;
+                text-align: center;   
+                margin: 5px;
+
+            }
+
+        #brag{
+            background-color: darksalmon;
+            color: chartreuse;
+            width : 160px;
+            height: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 10px;   
+        }
+
+    .main_center{
+        background-color: yellow;
+        width: 1200px;
+    }
+        #mcc{
+            width: 1100px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+            #mci{
+                width:200px;
+                height: 200px;
+                border-width: 4px;
+                border-style: solid;
+                border-color: chartreuse;
+            }
+
+    .main_right{
+        background-color: darkgreen;
+        width: 200px;
+
+    }
+
+        #mrb{
+            width: 160px;
+        }
+#hol{
+    background-color: blue;
+    width: 1600px; height: 200px;
+    position: fixed;
+    bottom: 10px;
+
+    font-size: 0.8em;
+    color: gray; 
+}

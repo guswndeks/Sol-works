@@ -1,0 +1,40 @@
+
+.a{
+    
+    background-color: red;
+    width:100px;
+    height:200px;
+}
+
+.b{
+    background-color: blue;
+    width:500px ;
+    height:200px ;
+}
+
+.c{
+    background-color: yellow;
+    width:600px;
+    height:100px;
+}
+
+.d{
+    background-color: orange;
+    width: 400px;
+    height: 200px;
+}
+
+.e{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+}
+
+.top{
+display: flex;      /* display flex 적용 시 해당 div 내 요소들 다 채우는 형태로 감 */
+}
+
+.bottom{
+    display: flex;
+
+}

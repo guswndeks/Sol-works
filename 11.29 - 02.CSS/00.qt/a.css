@@ -1,0 +1,48 @@
+table {
+    border: 1px solid black;
+  }
+  tr, td {
+    border: 1px solid red;
+
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 5px;
+    padding: 10px;
+    
+    text-align: center;
+    font-size: xx-large;
+  }
+  #opr {
+    
+    
+
+ 
+/* 여기에 스타일을 추가하세요 */
+    
+    
+font-weight:lighter;
+    text-decoration-line: underline;
+    font-style: italic;
+
+    
+
+ 
+color:crimson;
+    /* 다른 스타일링을 적용하고 싶은 속성들을 추가하세요 */
+}
+
+#sc{
+    font-style: italic;
+}
+
+#kds{
+    border-color: black;
+    border-style: ridge;
+}
+
+#sws{
+    border: 3px solid coral;
+    border: radius 7px;;
+    
+
+}

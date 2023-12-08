@@ -1,0 +1,105 @@
+#box{
+    display: flex;
+}
+
+/* 
+    좌 
+    메인영역
+*/
+#left_main{
+    background-color: red;
+    width: 500px;
+    height: 600px;
+}
+
+/* 
+    우
+    우측배너영역
+*/
+#right_banners{
+    background-color: orange;
+    width:100px;
+    height: 600px;
+    float: left;
+    text-align: center;
+}
+
+#top{
+    background-color: yellow;
+    width:500px;
+    height: 100px;
+}
+/* 중앙 메뉴 영역 */
+#mid{
+    background-color: green;
+    width:500px;
+    height: 50px;
+}
+#bot{
+    background-color: blue;
+    width:500px;
+    height: 450px;
+}
+#logo{
+    background-color: pink;
+    width:200px;
+    height: 100px;
+    float:left;
+    text-align: center;
+}
+#main_banner{
+    background-color: purple;
+    width: 300px;
+    height:100px;
+    float:left;
+    text-align: center;
+}
+#mid_menu_1{
+    background-color: gold;  
+    height:50px;
+    width:100px;
+    float: left;
+    text-align: center;
+}
+#mid_menu_2{
+    background-color:aqua;  
+    height:50px;
+    width:100px;
+    float: left;
+    text-align: center;
+}
+#mid_menu_3{
+    background-color:deepskyblue; 
+    height:50px;
+    width:100px;
+    float: left;
+    text-align: center;
+}
+#mid_menu_4{
+    background-color:darkblue; 
+    height:50px;
+    width:100px;
+    float: left;
+    text-align: center;
+}
+#mid_menu_5{
+    background-color:salmon; 
+    height:50px;
+    width:100px;
+    float: left;
+    text-align: center;
+}
+#bot_left_menu{
+    background-color:skyblue; 
+    width:100px;
+    height:450px;
+    float: left;
+    text-align: center;
+}
+#bot_content{
+    background-color:seagreen; 
+    width:400px;
+    height:450px;
+    float: left;
+    text-align: center;
+}

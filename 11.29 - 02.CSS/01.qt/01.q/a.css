@@ -1,0 +1,67 @@
+.Sol{
+    text-align: center;
+    background-color: aqua;
+
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:  10px;
+
+    margin: 10px;
+    padding: 10px;
+
+    
+}
+.alpha{
+    background-color:cornflowerblue;
+    text-align: center;
+    margin: 10px;
+}
+#alle{
+    border-color: black;
+    
+    border-style: solid;
+    border-width: 3px;
+}
+
+#leg{
+    background-color: coral;
+    text-align: center;
+    margin: 10px;
+}
+
+#Soli{
+    margin: 5px;
+    padding: 5px;
+    
+
+    border-color:gold;
+    border-width: 3px;
+    border-style:dotted;
+    background-color:blueviolet;
+}
+
+.fir{
+    background-color: crimson;
+}
+
+.sec{
+    background-color: darkblue;
+    margin: 40px;
+    padding: 40px;
+}
+
+.item{
+    border-color: black;
+    border-width: 3px;
+    border-style:dotted;
+    
+    margin: 10px;
+    border: 10px;
+}
+
+tr,td{
+    border-color:gold;
+    border-width: 3px;
+    border-style:dotted;
+}

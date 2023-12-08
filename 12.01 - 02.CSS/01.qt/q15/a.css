@@ -1,0 +1,104 @@
+/* #x{
+    display: flex;
+}
+
+#a{
+    background-color: red;
+    flex-basis: 10%;          
+    width:100px;
+}
+#b{
+    background-color: orange;
+    flex-basis: 10%;
+    width:100px;
+}
+#c{
+    background-color: yellow;
+    flex-basis: 40%;
+    width:100px;
+}
+#d{
+    background-color: green;
+    flex-basis: 20%;
+    width:100px;
+}
+#e{
+    background-color: blue;
+    flex-basis: 20%;
+    width:100px;
+} */
+
+/* 16번--------------------------------------------------------------------------------------------------------------------- */
+
+/* #x{
+    display: flex;
+}
+
+.z{
+    width:100px;
+    height:100px;
+}
+
+.zz{
+    margin:10px;
+}
+
+#a{
+    background-color: red;
+}
+#b{
+    background-color: orange;
+}
+#c{
+    background-color: yellow;
+}
+#d{
+    background-color: green;
+}
+#e{
+    background-color: blue;
+} */
+
+/* 17번-------------------------------------------------------------------- */
+
+/* #box {
+    display: flex;
+    flex-direction: row;    
+    flex-direction: column;
+
+    justify-content: center;
+
+    width: 100px;
+    height: 1000px;
+
+    background-color: pink;
+}
+
+#a{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+} */
+
+/* 18번-------------------------------------------------------------------------------- */
+
+#box {
+    display: flex;
+    /* flex-direction: row;     */
+    flex-direction: column;
+
+    justify-content: center;
+
+    width: 100px;
+    height: 1000px;
+
+    background-color: pink;
+}
+
+#a{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+}
