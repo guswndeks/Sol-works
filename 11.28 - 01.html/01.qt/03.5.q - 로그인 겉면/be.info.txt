@@ -1,0 +1,23 @@
+- input type과 세부 설정을 통한 회원가입 ui 구현
+<p>아이디를 입력해 주십시오. <input type="text"> <input type = "checkbox"> 중복확인</p> <!-- 겉면만 구현한 것이라 실질적 기능은 없음 -->
+        <p>비밀번호를 입력해 주십시오. <input type="text"></p>
+        <p>비밀번호를 다시 입력해 주십시오. <input type="text"></p>
+        <p>이메일 <input type="email"> @  <input type="text" list="em">
+        <datalist id="em"> <!-- 하위 옵션들 설정 -->
+            <option value="naver.com"></option>
+            <option value="hanmail.com"></option>
+            <option value="gmail.com"></option>
+            
+        </datalist>
+        
+        </p>
+
+        <p>전화번호 <input type="text"> <input type = "button">인증</p>
+        <p>
+            주민등록번호 <input type="text"> 
+
+        </p>
+        <p>주소 <input type="text"><input type = "button">주소찾기</p>
+        <p>약관 <button onclick="location.href='sec.html'"></button></p>
+
+        <p>정말 회원가입하시겠습니까? <button onclick="location.href='del.html'"></button></p>

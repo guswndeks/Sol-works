@@ -1,0 +1,22 @@
+- 요소 배치 심화 1
+.top{ <!-- 각 상위요소에 display: flex 설정 -->
+display: flex;      /* display flex 적용 시 해당 div 내 요소들 다 채우는 형태로 감 */
+}
+
+.bottom{
+    display: flex;
+
+}
+
+.a{ <!-- 각 하위요소에 가로 / 세로 크기값 설정 -->
+    
+    background-color: red;
+    width:100px;
+    height:200px;
+}
+
+.b{
+    background-color: blue;
+    width:500px ;
+    height:200px ;
+}

@@ -1,0 +1,16 @@
+- 링크로 이미지 및 영상 연결
+<img src = "C:\Users\sdedu\Desktop\GOAT.png" href = "https://www.youtube.com/watch?v=mf72jNoMqL0&t=268s">
+      
+      <img src = "https://highest.secret003.com/wp-content/uploads/2023/11/image-9.png">
+
+      <a href="https://www.youtube.com/watch?v=mf72jNoMqL0&t=268s"><img src = "C:\Users\sdedu\Desktop\GOAT.png" alt = "빛이 세번 밝히나니"></a>
+      <viedo src="https://www.youtube.com/embed/YwrKtbSMfqY"></viedo>
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/YwrKtbSMfqY" title="물로켓 억까질의 종말 [2023 롤드컵 페이커의 T1 우승]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+- css 기초적인 수준으로 적용
+ border: 1px solid red; <!-- 테두리 -->
+
+    border-radius: 10px; <!-- 테두리 각 둥글게 -->
+    border-style:outset; <!-- 테두리 스타일 -->
+    border-width: 5px; <!-- 테두리 너비 -->
+    padding: 10px; <!-- 안쪽 여백 -->

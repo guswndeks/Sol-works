@@ -1,0 +1,4 @@
+- input type를 이용한 로그인 ui 구현
+<p>아이디 <input type="text"></p> <!-- text 타입 박스로 아이디, 패스워드 칸 구현-->
+<p> <button type="button">로그인 <button onclick="location.href='be.html'">회원가입</button></p> <!-- button 타입 박스로 로그인 버튼, 클릭 시 be.html로 이동하도록 액션 설정 -->
+

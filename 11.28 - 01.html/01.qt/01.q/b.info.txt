@@ -1,0 +1,29 @@
+- css 연결
+<link rel="stylesheet" href="b.css">
+
+- table 문법 사용
+<table border = 5>
+        <caption> 코드분류</caption> <!-- 표제목 --> <!-- Tip) 표제목을 추가하거나 중간에 넣어도 맨 위로 넘어감 - Table 내에서는 단일 -->
+	<tr>
+                <th> 41</th>
+                <th> 42</th>
+                <th> 43</th>
+                <th> 44</th>
+            </tr>
+</table>
+<table>
+	<tbody>
+          <tr>
+            <th rowspan="3">도란링</th> <!-- rowspan : 행 통합 ~ 3칸 -->
+            <td>리안드리</td>
+            <td>모렐로</td>
+          </tr>
+	</tbody>
+	<tfoot>
+	 <tr>
+                <td colspan="3">특이템 : 라일라이</td> <!-- col or row ~ span => 합치기 -->
+              </tr>
+	</tfoot>
+</table>
+- table에 css 적용
+<table id = "itemtri"> <!-- id 설정 -->
